@@ -1632,6 +1632,11 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.portrait img {
+			display: block;
+			width: 90%;
+		}
+		
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -1653,11 +1658,11 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
-
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
+		}
+				
 /* Button */
 
 	input[type="button"],
